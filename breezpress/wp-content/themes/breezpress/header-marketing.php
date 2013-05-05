@@ -1,12 +1,3 @@
-<?php
-/**
- * Header for the Marketing page template
- *
- * @package Base Station
- * @subpackage Templates
- * @since .93
- */
-?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>

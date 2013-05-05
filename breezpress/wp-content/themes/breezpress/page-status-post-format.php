@@ -1,14 +1,4 @@
-<?php
-/**
- * Template Name: Status Posts
- * The template is for displaying posts with the Status post format.
- *
- * @package Base Station
- * @subpackage Templates
- * @since .93
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 <!-- Main -->
   <?php do_action( 'basestation_content_before' ); ?>

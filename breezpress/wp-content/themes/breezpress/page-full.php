@@ -1,10 +1,6 @@
 <?php
-/**
+/*
  * Template Name: Full width
- * The template for displaying full-width pages with no sidebar.
- *
- * @package Base Station
- * @since Base Station 0.1
  */
 
 get_header(); ?>

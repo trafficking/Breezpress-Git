@@ -1,16 +1,5 @@
 <?php
 /**
- * Base Station functions and definitions
- *
- * @package Base Station
- * @subpackage Functions
- * @author John Parris
- * @copyright Copyright (c) 2012, John Parris
- * @link http://www.johnparris.com/basestation/
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- */
-
-/**
  * Set the content width based on the theme's design and stylesheet.
  * @since Base Station 0.1
  */
@@ -25,7 +14,6 @@ if ( ! function_exists( 'basestation_setup' ) ):
  * Note that this function is hooked into the after_setup_theme hook, which runs
  * before the init hook. The init hook is too late for some features, such as indicating
  * support post thumbnails.
- * @since Base Station 0.1
  */
 function basestation_setup() {
 
@@ -144,44 +132,6 @@ function basestation_locate_template_uri( $template_names ) {
 endif;
 
 
-
-/**
- * Base Station RSS Feed Dashboard Widget
- *
- * Retrieve the latest news from Base Station home page
- *
- * @since Base Station .63
- *
- */
-function basestation_rss_dashboard_widget() {
-  echo '<div class="rss-widget">';
-  wp_widget_rss_output( array(
-    'url' => 'http://www.johnparris.com/basestation/feed',
-    'title' => 'Base Station News',
-    'items' => 3,
-    'show_summary' => 1,
-    'show_author' => 0,
-    'show_date' => 1
-  ) );
-  echo '</div>';
-}
-
-function basestation_custom_dashboard_widgets() {
-  wp_add_dashboard_widget( 'dashboard_custom_feed', 'Base Station News', 'basestation_rss_dashboard_widget' );
-}
-add_action('wp_dashboard_setup', 'basestation_custom_dashboard_widgets');
-
-
-/* Set RSS update time to every 6 hours */
-add_filter( 'wp_feed_cache_transient_lifetime', create_function('$a', 'return 21600;') );
-
-
-
-/**
- * Creates the title based on current view
- *
- * @since .94
- */
 function basestation_wp_title( $title, $sep ) {
   global $paged, $page;
 
@@ -204,12 +154,6 @@ function basestation_wp_title( $title, $sep ) {
 }
 add_filter( 'wp_title', 'basestation_wp_title', 10, 2 );
 
-
-
-/**
- * Define theme layouts
- * @since .94
- */
 function basestation_layouts_strings() {
     $strings = array(
       'default'           => __( 'Default', 'basestation' ),

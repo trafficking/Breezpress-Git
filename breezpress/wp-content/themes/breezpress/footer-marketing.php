@@ -1,12 +1,3 @@
-<?php
-/**
- * Footer for the marketing page template
- *
- * @package Base Station
- * @subpackage Templates
- * @since .93
- */
-?>
       <?php do_action( 'basestation_marketing_footer_before' ); ?>
 
       <div id="marketing-footer" class="footer">

@@ -1,12 +1,4 @@
-<?php
-/**
- * The template for displaying all single posts.
- *
- * @package Base Station
- * @since Base Station 0.1
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
     <div id="primary">
       <div class="row">

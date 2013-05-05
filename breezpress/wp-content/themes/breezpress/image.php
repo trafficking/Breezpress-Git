@@ -1,12 +1,4 @@
-<?php
-/**
- * The template for displaying image attachments.
- *
- * @package Base Station
- * @since Base Station 0.1
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
     <div id="primary" class="image-attachment">
       <div id="content">

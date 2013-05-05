@@ -1,8 +1,6 @@
 <?php
-/**
+/*
  * Template Name: Left Side Nav with Parent / Child pages
- *
- * @package Base Station
  */
 
 get_header(); ?>

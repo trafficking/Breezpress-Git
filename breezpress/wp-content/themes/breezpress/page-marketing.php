@@ -1,10 +1,7 @@
 <?php
-/**
+/*
  * Template Name: Marketing
  * The template for displaying a marketing landing page.
- *
- * @package Base Station
- * @since .93
  */
 
   get_header( 'marketing' ); ?>

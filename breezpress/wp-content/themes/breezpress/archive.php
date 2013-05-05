@@ -1,13 +1,7 @@
 <?php
 /**
  * The template for displaying Archive pages.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package Base Station
- * @since Base Station 0.1
- */
-
+**/
 get_header(); ?>
 
     <section id="primary">

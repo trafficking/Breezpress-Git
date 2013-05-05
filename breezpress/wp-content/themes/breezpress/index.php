@@ -1,8 +1,6 @@
 <?php
-/**
+/*
  * The main template file.
- * @package Base Station
- * @since Base Station 0.1
  */
 
 get_header(); ?>

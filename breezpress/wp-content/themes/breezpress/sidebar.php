@@ -1,11 +1,3 @@
-<?php
-/**
- * The Sidebar containing the main widget areas.
- *
- * @package Base Station
- * @since Base Station 0.1
- */
-?>
 <?php if ( current_theme_supports( 'theme-layouts' ) && !is_admin() && 'layout-1c' !== theme_layouts_get_layout() || !current_theme_supports( 'theme-layouts' ) ) { ?>
 
 <?php do_action( 'basestation_sidebar_before' ); ?>

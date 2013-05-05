@@ -1,13 +1,3 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the id=main div and all content after
- *
- * @package Base Station
- * @since Base Station 0.1
- */
-?>
 </section>
     <section id="mainside" role="complementary">
         <nav id="sideMenu" role="navigation">
