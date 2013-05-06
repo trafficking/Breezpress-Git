@@ -1,0 +1,103 @@
+/* -----------------------------------------------
+ * Name: Breezpress Custom CSS
+ * ---------- */
+
+
+
+/* #Header
+ * ----------------------------------------------- */
+
+#masthead {
+	height:150px;
+	background: rgba(255, 0, 0, 0.5);
+}
+
+
+/* ---------- */
+
+
+
+/* #Navigation
+ * ----------------------------------------------- */
+.top-bar {
+	position: relative;
+	overflow: hidden;
+	height: 45px;
+	line-height: 45px;
+	margin-top:1.875em;
+	margin-bottom: 1.875em; 
+	background: rgba(255, 0, 0, 0.5);
+
+}
+/* ---------- */
+
+
+/* #Footer
+ * ----------------------------------------------- */
+#footer-container {
+	margin-bottom:150px;
+}
+
+.fixed-footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:150px;
+    width:100%;
+    z-index:9999;
+	background: rgba(255, 0, 0, 0.5);
+}
+/* ---------- */
+
+
+
+/* #Extras
+ * ----------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}
+
+.hide {
+	display:none !important;
+}
+
+.show {
+	display:block  !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+/* ---------- */
+
+
+
+/* #Hacks
+ * ----------------------------------------------- */
+#navbar-brand {
+	display:none;
+}
+/* ---------- */
